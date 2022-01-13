@@ -1,5 +1,5 @@
 .DAARcity{
-    background-image: url(imgs/DAARCity.jpg);
+    background-image: url("imgs/DAARCity.jpg");
     width: 100%;
     height: 400px;
     background-size: contain; /* scales the image */
@@ -22,7 +22,7 @@
 
 body {
     background-color: rgba(31, 29, 29);
-    background-image: url(imgs/bgimg.jpg);
+    background-image: url("/imgs/bgimg.jpg");
    
     background-size: cover; /* scales the image */
     background-repeat: no-repeat;
@@ -54,9 +54,9 @@ h5{
 
 @font-face {
     font-family: AnuratiWeb;
-    src: url("font/anurati_font/anurati_font/Anurati-Regular.otf") format("opentype");
+    src: url("/font/anurati_font/anurati_font/Anurati-Regular.otf") format("opentype");
 }  
 @font-face {  
     font-family: Orbitron;
-    src: url("font/Orbitron/Orbitron-VariableFont_wght.ttf")
+    src: url("/font/Orbitron/Orbitron-VariableFont_wght.ttf")
 }
